@@ -98,7 +98,7 @@
     },
     {
       year: 2022,
-      name: 'PayMongo Payouts (internal system)',
+      name: 'PayMongo Payouts (internal)',
       techstack: [
         'React.JS',
         'Sass',
