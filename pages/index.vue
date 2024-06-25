@@ -101,11 +101,11 @@
     >
       <template #details>
         <ContainerP>
-          While I am more experienced with <strong>Ruby on Rails</strong> and
-          <strong>React.JS</strong> professionally, I consider myself to be
-          framework agnostic. I don't use any technology just for the sake of it.
-          I pick and adapt to technologies that satisfy the project's needs,
-          whether it's serverless, BaaS, server-side, etc.
+          While I have more professional experience with <strong>Ruby on Rails</strong> 
+          and <strong>React.js</strong>, I consider myself framework-agnostic. I don't 
+          adopt technologies solely for their own sake; rather, I select and adapt 
+          technologies that best fit the project's requirements, whether it involves 
+          serverless, BaaS, server-side development, etc.
         </ContainerP>
       </template>
     </ContainerItem>
@@ -116,11 +116,11 @@
       <template #figure><div></div></template>
       <template #details>
         <ContainerP>
-          It's easy to slap in 3rd party services whenever the project needs to
-          offload work to move fast or spend more money to increase infrastructure
-          capacity. However, these approaches are not always sustainable in the long run.
-          Part of my work involves ensuring the project operates within the budget while 
-          also <strong>focusing on optimizations</strong> to cut-down expenses.
+          It's tempting to integrate third-party services whenever a project needs to 
+          scale quickly or increase infrastructure capacity by spending more money. 
+          However, these approaches aren't always sustainable in the long run. Part of my 
+          work involves ensuring projects operate within budget constraints while 
+          <strong>focusing on optimizations</strong> to reduce expenses.
         </ContainerP>
       </template>
     </ContainerItem>
@@ -131,11 +131,11 @@
       <template #figure><div></div></template>
       <template #details>
         <ContainerP>
-          I am passionate about writing <strong>"clean" code</strong>, or in other
-          words, code that is testable and easy to follow. I don't obsess with adhering
-          to specific programming principles or patterns. I incorporate different
-          techniques to improve the structure of the codebase, and to allow me and other
-          maintainers to work as a collective more effectively.
+          I am passionate about writing <strong>"clean" code</strong>, which means 
+          code that is testable and easy to follow. I avoid fixating on specific 
+          programming principles or patterns and incorporate them only when they 
+          enhance the codebase. My focus is on reducing coupling in the code while 
+          avoiding excessive indirection or abstraction.
         </ContainerP>
       </template>
     </ContainerItem>

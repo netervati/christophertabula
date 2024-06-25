@@ -22,7 +22,7 @@
     </figure>
     <div class="flex flex-col gap-4">
       <h3 class="font-main font-extrabold text-start sm:text-lg md:text-xl lg:text-2xl">
-        {{ title }}
+        {{ title }}<span class="text-cyan-500">.</span>
       </h3>
       <slot name="details"></slot>
     </div>
