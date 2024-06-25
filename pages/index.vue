@@ -17,12 +17,12 @@
         with a passion for crafting solid and scalable digital products.
       </h3>
       <div class="text-teal-700 grid gap-4 grid-cols-2 text-sm md:text-base">
-        <p>Detail-oriented and highly skilled at full stack development.</p>
-        <p>Proven experience in working in complex, high-traffic systems.</p>
+        <p>Detail-oriented and highly skilled at full-stack development.</p>
+        <p>Proven track record of building successful products.</p>
       </div>
     </div>
   </header>
-  <section class="text-center py-24"></section>
+  <section class="text-center py-16"></section>
   <Container title="I bring visions into life">
     <ContainerItem title="PayMongo's Dashboard">
       <template #figure>
@@ -44,10 +44,7 @@
         </ContainerP>
       </template>
     </ContainerItem>
-    <ContainerItem
-      data-aos="fade-left"
-      title="Simple Habit"
-    >
+    <ContainerItem title="Simple Habit">
       <template #figure>
         <NuxtImg
           class="border-2 rounded-lg"
@@ -86,8 +83,8 @@
       </template>
     </ContainerItem>
     <NuxtLink
-      class="mt-8 w-fit mx-auto text-lg md:text-xl"
-      data-aos="fade-right"
+      class="mt-8 w-fit mx-auto text-base md:text-lg lg:text-xl"
+      data-aos="fade-up"
       to="/projects"
     >
       See more
@@ -109,10 +106,7 @@
         </ContainerP>
       </template>
     </ContainerItem>
-    <ContainerItem
-      data-aos="fade-left"
-      title="Scalability and Longevity"
-    >
+    <ContainerItem title="Scalability and Longevity">
       <template #figure><div></div></template>
       <template #details>
         <ContainerP>
