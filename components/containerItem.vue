@@ -14,7 +14,7 @@
 <template>
   <article
     :data-aos="dataAos"
-    class="p-8 grid gap-8 md:grid-cols-2"
+    class="p-4 md:p-8 grid gap-8 md:grid-cols-2"
   >
     <figure :class="{ 'md:order-last': props.reversed }">
       <slot name="figure">
