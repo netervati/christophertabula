@@ -5,6 +5,9 @@ export default defineNuxtConfig({
     easing: 'ease-in-out-cubic',
     once: true
   },
+  alias: {
+    pinia: '/node_modules/@pinia/nuxt/node_modules/pinia/dist/pinia.mjs'
+  },
   app: {
     head: {
       meta: [
@@ -47,10 +50,21 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     'nuxt-aos',
     '@nuxt/image',
-    "nuxt-simple-robots",
-    "@nuxt/content",
-    "@nuxtjs/sitemap"
+    'nuxt-simple-robots',
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+    '@pinia/nuxt'
   ],
+  runtimeConfig: {
+    public: {
+      logRocket: {
+        id: process.env.LOG_ROCKET_ID,
+        dev: false,
+        enablePinia: true,
+        config: {}
+      }
+    },
+  },
   site: {
     url: process.env.BASE_URL
   },
