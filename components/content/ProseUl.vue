@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-disc list-inside mt-4">
+  <ul class="list-disc list-inside">
     <slot></slot>
   </ul>
 </template>

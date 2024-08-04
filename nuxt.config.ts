@@ -45,6 +45,14 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light'
   },
+  content: {
+    highlight: {
+      langs: [
+        'rb',
+      ],
+      theme: 'github-light'
+    }
+  },
   devtools: { enabled: false },
   modules: [
     '@nuxt/ui',
