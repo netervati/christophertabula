@@ -31,7 +31,7 @@
 <template>
   <nav
     :class="{ 'drop-shadow-lg': dropShadow }"
-    class="bg-white font-medium text-cyan-950 fixed flex gap-4 justify-between md:justify-center items-center px-8 sm:px-16 md:px-38 lg:px-48 p-4 md:py-8 top-0 w-full z-20"
+    class="absolute bg-white font-medium text-cyan-950 flex gap-4 justify-between md:justify-center items-center px-8 sm:px-16 md:px-38 lg:px-48 p-4 md:py-8 top-0 w-full z-20"
   >
     <div class="grow-0 w-[12rem]">
       <NuxtLink class="font-main font-extrabold" to="/">
