@@ -13,7 +13,7 @@ sitemap:
 
 <span class="inline-block bg-cyan-400 my-8 h-1 w-[5rem]"></span>
 
-When working with distributed systems, one of the most problematic issues you might encounter is duplicate records. This typically happens when a service with a retry mechanism attempts to create a record in another service but fails to complete the transaction. Consequently, the service retries the transaction, which can result in duplicate records.
+When working with microservices, one of the most problematic issues you might encounter is duplicate records. This typically happens when a service with a retry mechanism attempts to create a record in another service but fails to complete the transaction. Consequently, the service retries the transaction, which can result in duplicate records.
 
 This problem often remains hidden until the system scales up and starts experiencing issues like performance degradation and timeouts, making it more damaging when it eventually surfaces. Therefore, it is crucial to design the system to handle retries safely. In other words, the system should be _idempotent_.
 
