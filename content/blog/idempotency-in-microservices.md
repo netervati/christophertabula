@@ -2,7 +2,7 @@
 title: Idempotency in microservices
 sitemap:
   loc: /blog/idempotency-in-microservices
-  lastmod: 2024-08-04
+  lastmod: 2024-08-07
   changefreq: monthly
   priority: 0.8
 ---
