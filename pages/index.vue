@@ -33,14 +33,13 @@
       </template>
       <template #details>
         <ContainerP>
-          I am working on some parts of
-          <a class="underline decoration-2 decoration-cyan-500" href="https://dashboard.paymongo.com/login">PayMongo's Dashboard</a>,
-          the app that provides tools to manage online payments via PayMongo with ease.
+          I previously worked on <a class="underline decoration-2 decoration-cyan-500" href="https://dashboard.paymongo.com/login">PayMongo's Dashboard</a>,
+          the platform that powers online payment processing for businesses.
         </ContainerP>
         <ContainerP>
-          I am also working on the internal systems that are responsible for processing
+          I also worked on its internal systems that are responsible for processing
           <a class="underline decoration-2 decoration-cyan-500" href="https://paymongo.help/en/articles/5648478-getting-to-know-your-payouts-dashboard">payouts</a>
-          and other compliance-related initiatives.
+          and ensuring the platform's full compliance to regulations.
         </ContainerP>
       </template>
     </ContainerItem>
@@ -58,8 +57,8 @@
           a minimalist habit-tracker made for self-development and productivity.
         </ContainerP>
         <ContainerP>
-          I built the MVP for a freelance client, developing its core features such as the calendar
-          widget, sign-in, and reflections. I also established its infrastructure.
+          I was responsible for building the MVP for a freelance client, establishing its infrastructure and developing
+          its core features such as the calendar widget, sign-in, and reflections.
         </ContainerP>
       </template>
     </ContainerItem>
