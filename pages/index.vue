@@ -98,10 +98,9 @@
       <template #details>
         <ContainerP>
           While I have more professional experience with <strong>Ruby on Rails</strong>
-          and <strong>React.js</strong>, I consider myself framework-agnostic. I don't
-          adopt technologies solely for their own sake; rather, I select and adapt
-          technologies that best fit the project's requirements, whether it involves
-          serverless, BaaS, server-side development, etc.
+          and <strong>React.js</strong>, I'm not limited by those tools only. I select
+          and adapt technologies that best fit the project's requirements, whether it
+          involves serverless, BaaS, server-side development, etc.
         </ContainerP>
       </template>
     </ContainerItem>
@@ -109,11 +108,10 @@
       <template #figure><div></div></template>
       <template #details>
         <ContainerP>
-          It's tempting to integrate third-party services whenever a project needs to
-          scale quickly or increase infrastructure capacity by spending more money.
-          However, these approaches aren't always sustainable in the long run. Part of my
-          work involves ensuring projects operate within budget constraints while
-          <strong>focusing on optimizations</strong> to reduce expenses.
+          I have a strong focus on <strong>optimizing the product's internals</strong>
+          to keep infrastructure costs manageable. My goal is to ensure the product
+          operates within budget constraints and to reduce reliance on third-party
+          services, which often leads to higher operating costs.
         </ContainerP>
       </template>
     </ContainerItem>
@@ -125,10 +123,9 @@
       <template #details>
         <ContainerP>
           I am passionate about writing <strong>"clean" code</strong>, which means
-          code that is testable and easy to follow. I avoid fixating on specific
-          programming principles or patterns and incorporate them only when they
-          enhance the codebase. My focus is on reducing coupling in the code while
-          avoiding excessive indirection or abstraction.
+          code that is testable and easy to follow. While I take inspiration from
+          multiple techniques and patterns, my focus is on reducing coupling in
+          the code while avoiding excessive indirection or abstraction.
         </ContainerP>
       </template>
     </ContainerItem>
