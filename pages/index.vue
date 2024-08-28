@@ -8,15 +8,15 @@
       />
     </div>
     <div class="flex flex-col gap-4 md:gap-8 m-auto basis-1/2">
-      <h1 class="font-main xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-7xl">
+      <h1 class="font-main text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:max-2xl:text-7xl">
         Hi, my <u class="decoration-4 decoration-cyan-500">name</u> is
         <strong>Chris</strong><span class="text-cyan-500">.</span>
       </h1>
-      <h3 class="xs:text-medium sm:text-lg md:text-xl lg:text-2xl text-3xl">
+      <h3 class="text-medium sm:text-lg md:text-xl lg:text-2xl xl:max-2xl:text-3xl">
         I'm a <b>software engineer</b>
         with a passion for crafting solid and scalable digital products.
       </h3>
-      <div class="text-teal-700 grid gap-4 grid-cols-2 xs:text-sm sm:text-sm md:text-base lg:text-base text-large">
+      <div class="text-teal-700 grid gap-4 grid-cols-2 text-sm sm:text-sm md:text-base lg:text-base xl:max-2xl:text-large">
         <p>Detail-oriented and highly skilled at full-stack development.</p>
         <p>Proven track record of building successful products.</p>
       </div>
