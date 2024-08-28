@@ -16,7 +16,7 @@
     },
     {
       icon: 'fa-brands fa-youtube',
-      url: 'www.youtube.com/@netervati'
+      url: 'https://www.youtube.com/@netervati'
     },
     {
       icon: 'fa-regular fa-envelope',
