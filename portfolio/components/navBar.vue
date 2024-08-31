@@ -14,6 +14,10 @@
     {
       name: 'Blog',
       to: '/blog',
+    },
+    {
+      name: 'Contact Me',
+      to: '/contact-me',
     }
   ];
 

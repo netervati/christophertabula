@@ -65,6 +65,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
+      messageApiUrl: process.env.MESSAGE_API_URL,
       logRocket: {
         id: process.env.LOG_ROCKET_ID,
         dev: false,
