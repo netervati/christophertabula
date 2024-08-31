@@ -20,13 +20,18 @@
       payload[pair[0]] = pair[1]
     }
 
-    await fetch(`${messageApiUrl}/send`, {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      }
-    })
+    try {
+      await fetch(`${messageApiUrl}/send`, {
+        body: JSON.stringify(payload),
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      })
+    } finally {
+      form.value!.reset();
+    }
   };
 </script>
 
@@ -55,13 +60,17 @@
         <textarea
           class="border-b border-gray-400 focus:border-teal focus:outline-none w-full"
           name="body"
-          placeholder="Your message here."
+          placeholder="Your message here"
           required
           rows="8"
         ></textarea>
       </div>
       <div class="p-2">
-        <input type="submit" value="Submit here" />
+        <input
+          class="active:bg-gray-300 cursor-pointer hover:bg-gray-100 rounded-lg duration-300 p-4 transition-all"
+          type="submit"
+          value="Submit here"
+        />
       </div>
     </form>
   </section>
