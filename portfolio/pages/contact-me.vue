@@ -20,18 +20,16 @@
       payload[pair[0]] = pair[1]
     }
 
-    try {
-      await fetch(`${messageApiUrl}/send`, {
-        body: JSON.stringify(payload),
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        }
-      })
-    } finally {
-      form.value!.reset();
-    }
+    await fetch(`${messageApiUrl}/send`, {
+      body: JSON.stringify(payload),
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    });
+
+    form.value!.reset();
   };
 </script>
 
