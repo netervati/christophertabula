@@ -1,3 +1,15 @@
+<script setup lang="ts">
+  useHead({
+    title: 'Christopher I. Tabula',
+    meta: [
+      {
+        name: 'description',
+        content: "I'm a software engineer with a passion for crafting solid and scalable digital products."
+      }
+    ]
+  });
+</script>
+
 <template>
   <header class="flex flex-col md:flex-row-reverse gap-4 h-screen w-full">
     <div class="flex items-center justify-center basis-1/2 p-8">

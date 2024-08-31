@@ -1,5 +1,5 @@
 ---
-title: 'Blog'
+title: 'Christopher I. Tabula'
 fullscreen: true
 sitemap:
   loc: /blog

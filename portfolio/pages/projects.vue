@@ -1,4 +1,14 @@
 <script setup lang="ts">
+  useHead({
+    title: 'Christopher I. Tabula',
+    meta: [
+      {
+        name: 'description',
+        content: "I'm a software engineer with a passion for crafting solid and scalable digital products."
+      }
+    ]
+  });
+
   const projects = [
     {
       year: 2024,
@@ -193,7 +203,7 @@
   <section class="flex flex-col mt-32 gap-4 w-full">
     <PageTitle>Projects</PageTitle>
     <ContainerP>
-      Below are hand-picked projects I have worked on, spanning professional 
+      Below are hand-picked projects I have worked on, spanning professional
       engagements, freelance clients, personal projects, and open-source
       contributions.
     </ContainerP>
