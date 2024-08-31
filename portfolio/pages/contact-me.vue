@@ -10,8 +10,11 @@
   });
 
   const form = ref<HTMLFormElement>();
+  const isDisabled = ref(false);
 
   const submitEmail = async () => {
+    isDisabled.value = true;
+
     const formData = new FormData(form.value);
     const { messageApiUrl } = useRuntimeConfig().public;
     const payload: { [key: string]: FormDataEntryValue } = {};
@@ -20,16 +23,20 @@
       payload[pair[0]] = pair[1]
     }
 
-    await fetch(`${messageApiUrl}/send`, {
-      body: JSON.stringify(payload),
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      }
-    });
+    try {
+      await fetch(`${messageApiUrl}/send`, {
+        body: JSON.stringify(payload),
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
 
-    form.value!.reset();
+      form.value!.reset();
+    } finally {
+      isDisabled.value = false;
+    }
   };
 </script>
 
@@ -47,6 +54,7 @@
     <form ref="form" @submit.prevent="submitEmail">
       <div class="p-2">
         <input
+          :disabled="isDisabled"
           class="border-b border-gray-400 focus:border-teal focus:outline-none w-full md:max-2xl:w-1/2 lg:w-1/2"
           name="email"
           type="email"
@@ -56,6 +64,7 @@
       </div>
       <div class="p-2">
         <textarea
+          :disabled="isDisabled"
           class="border-b border-gray-400 focus:border-teal focus:outline-none w-full"
           name="body"
           placeholder="Your message here"
@@ -64,11 +73,14 @@
         ></textarea>
       </div>
       <div class="p-2">
-        <input
+        <button
+          :disabled="isDisabled"
           class="active:bg-gray-300 cursor-pointer hover:bg-gray-100 rounded-lg duration-300 p-4 transition-all"
           type="submit"
-          value="Submit here"
-        />
+        >
+          <i v-if="isDisabled" class="animate-spin fa-solid fa-spinner h-5 w-5"></i>
+          Submit here
+        </button>
       </div>
     </form>
   </section>
