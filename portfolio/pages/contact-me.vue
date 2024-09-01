@@ -55,6 +55,7 @@
       <div class="p-2">
         <input
           :disabled="isDisabled"
+          autocomplete="off"
           class="border-b border-gray-400 focus:border-teal focus:outline-none w-full md:max-2xl:w-1/2 lg:w-1/2"
           name="email"
           type="email"
