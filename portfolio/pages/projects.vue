@@ -9,10 +9,11 @@
     ]
   });
 
+  // Let's hide the techstacks for now.
   const projects = [
     {
       year: 2024,
-      name: "PayMongo's Dashboard",
+      name: 'PayMongo Dashboard',
       techstack: [
         'React.JS',
         'Sass',
@@ -108,7 +109,7 @@
     },
     {
       year: 2022,
-      name: 'PayMongo Payouts (internal)',
+      name: 'PayMongo Payouts',
       techstack: [
         'React.JS',
         'Sass',
@@ -177,12 +178,7 @@
       year: 2020,
       name: 'ClinicPro',
       techstack: ['PHP', 'jQuery', 'Bootstrap', 'MySQL'],
-      links: [
-        {
-          name: 'emersys.online',
-          url: 'http://emersys.online/clinic.php',
-        }
-      ]
+      links: []
     },
     {
       year: 2019,
@@ -212,7 +208,6 @@
         <tr class="text-sm md:text-base">
           <th class="text-start py-4 w-2/5 sm:w-2/12 md:w-1/12">Year</th>
           <th class="text-start py-4 w-3/5 sm:w-5/12 md:w-3/12">Project</th>
-          <th class="text-start py-4 w-4/12 hidden md:table-cell">Tech Stack</th>
           <th class="text-start py-4 hidden sm:table-cell sm:w-5/12 md:w-4/12">Links</th>
         </tr>
       </thead>
@@ -236,15 +231,6 @@
               </a>
             </p>
             <p v-else class="sm:hidden">{{ project.name }}</p>
-          </td>
-          <td
-            class="align-top py-4 w-4/12 hidden md:table-cell"
-          >
-            <div class="flex flex-wrap gap-2 px-2">
-              <span class="bg-cyan-100 rounded-full py-2 px-4 text-xs" v-for="tech in project.techstack">
-                {{ tech }}
-              </span>
-            </div>
           </td>
           <td class="align-top py-4 hidden sm:table-cell sm:w-5/12 md:w-4/12">
             <p
