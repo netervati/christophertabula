@@ -1,19 +1,16 @@
 <script setup lang="ts">
   type Props = {
-    dataAos?: string;
     reversed?: boolean;
     title: string;
   };
 
   const props = withDefaults(defineProps<Props>(), {
-    dataAos: 'fade-up',
     reversed: false,
   })
 </script>
 
 <template>
   <article
-    :data-aos="dataAos"
     class="p-4 md:p-8 grid gap-8 md:grid-cols-2"
   >
     <figure :class="{ 'md:order-last': props.reversed }">

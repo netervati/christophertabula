@@ -14,7 +14,6 @@
   <header class="flex flex-col md:flex-row-reverse gap-4 h-screen w-full">
     <div class="flex items-center justify-center basis-1/2 p-8">
       <NuxtImg
-        data-aos="zoom-in"
         class="rounded-lg mt-20 md:mt-0 w-[200px] lg:w-[256px]"
         src="/me.jpg"
       />
@@ -95,7 +94,6 @@
     </ContainerItem>
     <NuxtLink
       class="mt-8 w-fit mx-auto text-base md:text-lg lg:text-xl"
-      data-aos="fade-up"
       to="/projects"
     >
       See more
