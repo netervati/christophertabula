@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  echo "No mode provided. Please provide a mode."
+  exit 1
+fi
+
+# Store the argument in a variable
+MODE="$1"
+
+if [ ! -d ./portfolio/node_modules ]; then
+  npm i --prefix ./portfolio ./portfolio
+fi
+
+if [ "$MODE" == "dev" ]; then
+  npm run --prefix ./portfolio dev
+elif [ "$MODE" == "generate" ]; then
+  npm run --prefix ./portfolio generate
+  python3 -m http.server --directory ./portfolio/.output/public 3000
+else
+  echo "Unknown mode \"$MODE\". Please use one of the valid modes:"
+  echo "  dev       - builds the portfolio as SSE"
+  echo "  generate  - builds the portfolio as SSG"
+  exit 1
+fi

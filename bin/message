@@ -1,0 +1,29 @@
+#!/bin/bash
+
+function activate_bin {
+  source ./message-api/.venv/bin/activate
+
+  if [ "$1" == "1" ]; then
+    python3 -m pip install -r requirements.txt
+  fi
+
+  # Check if activation was successful
+  if [ $? -ne 0 ]; then
+    echo "Failed to activate virtual environment."
+    exit 1
+  fi
+}
+
+if [ ! -d ./message-api/.venv ]; then
+  python3 -m venv ./message-api/.venv
+  activate_bin "1"
+else
+  activate_bin "0"
+fi
+
+# Execute the command inside the virtual environment
+# This will run indefinitely for a server
+python3 message-api/main.py
+
+# Deactivate the virtual environment when the command exits
+deactivate
