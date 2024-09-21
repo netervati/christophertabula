@@ -14,15 +14,6 @@
     {
       year: 2024,
       name: 'PayMongo Dashboard',
-      techstack: [
-        'React.JS',
-        'Sass',
-        'Storybook',
-        'Ruby on Rails',
-        'Sidekiq',
-        'PostgreSQL',
-        'AWS'
-      ],
       links: [
         {
           name: 'dashboard.paymongo.com',
@@ -33,13 +24,6 @@
     {
       year: 2023,
       name: 'Simple Habit',
-      techstack: [
-        'Nuxt3',
-        'DaisyUI',
-        'Google Sign-in',
-        'PostgreSQL',
-        'Heroku'
-      ],
       links: [
         {
           name: 'simplehabit.io',
@@ -50,7 +34,6 @@
     {
       year: 2023,
       name: 'PseudoGatewayAPI',
-      techstack: ['Fastify', 'Supabase', 'Vercel'],
       links: [
         {
           name: 'github.com',
@@ -65,7 +48,6 @@
     {
       year: 2023,
       name: 'PseudoRESTAPI',
-      techstack: ['Nuxt3', 'DaisyUI', 'Supabase', 'Vercel'],
       links: [
         {
           name: 'github.com',
@@ -80,7 +62,6 @@
     {
       year: 2023,
       name: 'Super Stat Me',
-      techstack: ['Nuxt3', 'Tailwind CSS', 'Octokit', 'Vercel'],
       links: [
         {
           name: 'github.com',
@@ -95,7 +76,6 @@
     {
       year: 2022,
       name: 'ProfileMe.dev',
-      techstack: ['Next.JS', 'Tailwind CSS'],
       links: [
         {
           name: 'github.com',
@@ -110,15 +90,6 @@
     {
       year: 2022,
       name: 'PayMongo Payouts',
-      techstack: [
-        'React.JS',
-        'Sass',
-        'Storybook',
-        'Ruby on Rails',
-        'Sidekiq',
-        'PostgreSQL',
-        'AWS'
-      ],
       links: [
         {
           name: 'paymongo.help',
@@ -129,13 +100,6 @@
     {
       year: 2022,
       name: 'ParaZyte',
-      techstack: [
-        'JavaScript',
-        'Howler.JS',
-        'Photoshop',
-        'Bfxr',
-        'Beepbox',
-      ],
       links: [
         {
           name: 'github.com',
@@ -150,19 +114,11 @@
     {
       year: 2022,
       name: 'Tech Content Portal',
-      techstack: ['Vue3', 'Django', 'AWS'],
       links: []
     },
     {
       year: 2021,
       name: 'Space Distortion',
-      techstack: [
-        'TypeScript',
-        'GIMP',
-        'Bfxr',
-        'Beepbox',
-        'NeutralinoJS'
-      ],
       links: [
         {
           name: 'github.com',
@@ -177,19 +133,16 @@
     {
       year: 2020,
       name: 'ClinicPro',
-      techstack: ['PHP', 'jQuery', 'Bootstrap', 'MySQL'],
       links: []
     },
     {
       year: 2019,
       name: 'A.R. Management System',
-      techstack: ['PHP', 'jQuery', 'Bootstrap', 'MySQL'],
       links: []
     },
     {
       year: 2018,
       name: 'Support Ticketing System',
-      techstack: ['PHP', 'jQuery', 'Bootstrap', 'MySQL'],
       links: []
     }
   ];
