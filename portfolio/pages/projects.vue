@@ -27,7 +27,7 @@
       links: [
         {
           name: 'simplehabit.io',
-          url: 'https://simplehabit.io/'
+          url: 'https://www.producthunt.com/products/simple-habit-4'
         }
       ]
     },

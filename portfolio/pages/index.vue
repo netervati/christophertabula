@@ -64,7 +64,7 @@
       <template #details>
         <ContainerP>
           I worked on
-          <a class="underline decoration-2 decoration-cyan-500" href="https://simplehabit.io/">Simple Habit</a>,
+          <a class="underline decoration-2 decoration-cyan-500" href="https://www.producthunt.com/products/simple-habit-4">Simple Habit</a>,
           a minimalist habit-tracker made for self-development and productivity.
         </ContainerP>
         <ContainerP>
