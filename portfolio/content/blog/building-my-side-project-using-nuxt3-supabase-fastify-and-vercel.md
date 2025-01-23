@@ -1,7 +1,7 @@
 ---
 title: Building my side project using Nuxt3, Supabase, Fastify, & Vercel
 sitemap:
-  loc: /blog/building-my-side-project-with-nuxt3-supabase-fastify-and-vercel
+  loc: /blog/building-my-side-project-using-nuxt3-supabase-fastify-and-vercel
   lastmod: 2025-01-23
   changefreq: monthly
   priority: 0.8
