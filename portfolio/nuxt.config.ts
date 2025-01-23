@@ -49,6 +49,12 @@ export default defineNuxtConfig({
     highlight: {
       langs: [
         'rb',
+        'js',
+        'ts',
+        'bash',
+        'yml',
+        'vue',
+        'json'
       ],
       theme: 'github-light'
     }
