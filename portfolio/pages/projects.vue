@@ -13,7 +13,17 @@
   const projects = [
     {
       year: 2024,
-      name: 'PayMongo Dashboard',
+      name: 'Subble (Integrations)',
+      links: [
+        {
+          name: 'subble.com',
+          url: 'https://www.subble.com/'
+        }
+      ]
+    },
+    {
+      year: 2024,
+      name: 'PayMongo (Dashboard)',
       links: [
         {
           name: 'dashboard.paymongo.com',
@@ -89,7 +99,7 @@
     },
     {
       year: 2022,
-      name: 'PayMongo Payouts',
+      name: 'PayMongo (Payouts)',
       links: [
         {
           name: 'paymongo.help',
